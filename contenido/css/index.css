@@ -63,7 +63,243 @@
 .navbar a:hover{
     color: #117964;
 }
-
+.parent {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    gap: 40px;
+}
+.div1 {
+    grid-column: span 5 / span 5;
+}
+.div2 {
+    grid-column-start: 2;
+    grid-row-start: 2;
+    background-color: #ffffff;
+    border-radius: 10px;
+    padding: 5px;
+    text-align: center;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease-in-out;
+}
+.div2 img {
+    width: 100px;
+    height: auto;
+    border-radius: 8px;
+}
+.div2 h3 {
+    font-size: 18px;
+    margin: 10px 0;
+}
+.div2 p{
+    font-size: 14px;
+    color: #555;
+}
+.div2 button{
+    background-color: #ff4081;
+    color: #fff;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+.div2 button:hover {
+    background-color: #e60073;
+}
+.div2:hover{
+    transform: translateY(-10px);
+}
+.div3 {
+    grid-column-start: 3;
+    grid-row-start: 2;
+    background-color: #ffffff;
+    border-radius: 10px;
+    padding: 5px;
+    text-align: center;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease-in-out;
+}
+.div3 img {
+    width: 100px;
+    height: auto;
+    border-radius: 8px;
+}
+.div3 h3 {
+    font-size: 18px;
+    margin: 10px 0;
+}
+.div3 p{
+    font-size: 14px;
+    color: #555;
+}
+.div3 button{
+    background-color: #ff4081;
+    color: #fff;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+.div3 button:hover {
+    background-color: #e60073;
+}
+.div3:hover{
+    transform: translateY(-10px);
+}
+.div4 {
+    grid-column-start: 4;
+    grid-row-start: 2;
+    background-color: #ffffff;
+    border-radius: 10px;
+    padding: 5px;
+    text-align: center;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease-in-out;
+}
+.div4 img {
+    width: 100px;
+    height: auto;
+    border-radius: 8px;
+}
+.div4 h3 {
+    font-size: 18px;
+    margin: 10px 0;
+}
+.div4 p{
+    font-size: 14px;
+    color: #555;
+}
+.div4 button{
+    background-color: #ff4081;
+    color: #fff;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+.div4 button:hover {
+    background-color: #e60073;
+}
+.div4:hover{
+    transform: translateY(-10px);
+}
+.div5 {
+    grid-column-start: 2;
+    grid-row-start: 3;
+    background-color: #ffffff;
+    border-radius: 10px;
+    padding: 5px;
+    text-align: center;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease-in-out;
+}
+.div5 img {
+    width: 100px;
+    height: auto;
+    border-radius: 8px;
+}
+.div5 h3 {
+    font-size: 18px;
+    margin: 10px 0;
+}
+.div5 p{
+    font-size: 14px;
+    color: #555;
+}
+.div5 button{
+    background-color: #ff4081;
+    color: #fff;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+.div5 button:hover {
+    background-color: #e60073;
+}
+.div5:hover{
+    transform: translateY(-10px);
+}
+.div6 {
+    grid-column-start: 3;
+    grid-row-start: 3;
+    background-color: #ffffff;
+    border-radius: 10px;
+    padding: 5px;
+    text-align: center;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease-in-out;
+}
+.div6 img {
+    width: 100px;
+    height: auto;
+    border-radius: 8px;
+}
+.div6 h3 {
+    font-size: 18px;
+    margin: 10px 0;
+}
+.div6 p{
+    font-size: 14px;
+    color: #555;
+}
+.div6 button{
+    background-color: #ff4081;
+    color: #fff;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+.div6 button:hover {
+    background-color: #e60073;
+}
+.div6:hover{
+    transform: translateY(-10px);
+}
+.div7 {
+    grid-column-start: 4;
+    grid-row-start: 3;
+    background-color: #ffffff;
+    border-radius: 10px;
+    padding: 5px;
+    text-align: center;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease-in-out;
+}
+.div7 img {
+    width: 100px;
+    height: auto;
+    border-radius: 8px;
+}
+.div7 h3 {
+    font-size: 18px;
+    margin: 10px 0;
+}
+.div7 p{
+    font-size: 14px;
+    color: #555;
+}
+.div7 button{
+    background-color: #ff4081;
+    color: #fff;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+.div7 button:hover {
+    background-color: #e60073;
+}
+.div7:hover{
+    transform: translateY(-10px);
+}
 @media (max-width: 768px){
     .navbar{
         opacity: 0.95;
@@ -171,97 +407,6 @@
         transform: rotate(-45deg);
     }
 
-}
-.parent {
-    display: grid;
-    grid-template-columns: repeat(5, 1fr);
-    grid-template-rows: repeat(4, 1fr);
-    gap: 100px;
-}
-    
-.div1 {
-    grid-column: span 5 / span 5;
-}
-.div2 {
-    grid-column-start: 2;
-    grid-row-start: 2;
-}
-.div2 img{
-    width: 150px;
-    height: 150px;
-    border-radius: 10%;
-}
-.div3 {
-    grid-column-start: 3;
-    grid-row-start: 2;
-}
-.div3 img{
-    width: 150px;
-    height: 150px;
-    border-radius: 10%;
-}
-.div4 {
-    grid-column-start: 4;
-    grid-row-start: 2;
-}
-.div4 img{
-    width: 150px;
-    height: 150px;
-    border-radius: 10%;
-}
-.div5 {
-    grid-column-start: 2;
-    grid-row-start: 3;
-}
-.div5 img{
-    width: 150px;
-    height: 150px;
-    border-radius: 10%;
-}
-.div6 {
-    grid-column-start: 3;
-    grid-row-start: 3;
-}
-.div6 img{
-    width: 150px;
-    height: 150px;
-    border-radius: 10%;
-}
-.div7 {
-    grid-column-start: 4;
-    grid-row-start: 3;
-}
-.div7 img{
-    width: 150px;
-    height: 150px;
-    border-radius: 10%;
-}
-.div8 {
-    grid-column-start: 2;
-    grid-row-start: 4;
-}
-.div8 img{
-    width: 150px;
-    height: 150px;
-    border-radius: 10%;
-}
-.div9 {
-    grid-column-start: 3;
-    grid-row-start: 4;
-}
-.div9 img{
-    width: 150px;
-    height: 150px;
-    border-radius: 10%;
-}
-.div10 {
-    grid-column-start: 4;
-    grid-row-start: 4;
-}
-.div10 img{
-    width: 150px;
-    height: 150px;
-    border-radius: 10%;
 }
 @media (max-width: 500px){
     .navbar-container input[type="checkbox"]:checked ~ .logo{
