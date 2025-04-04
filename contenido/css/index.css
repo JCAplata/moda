@@ -5,6 +5,46 @@
     padding: 0;
     margin: 0;
 }
+.search-bar {
+    position: relative;
+    display: flex;
+    align-items: center;
+}
+
+.search-bar input {
+    padding: 8px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    width: 150px;
+    transition: width 0.3s ease-in-out;
+}
+
+.search-bar input:focus {
+    width: 200px;
+}
+
+.results {
+    position: absolute;
+    top: 35px;
+    left: 0;
+    width: 100%;
+    background: white;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+    display: none;
+}
+
+.results.active {
+    display: block;
+}
+
+.results div {
+    padding: 8px;
+    cursor: pointer;
+}
+
+.results div:hover {
+    background: #f1f1f1;
+}
 
 .html{
     font-size: 62.5%;
@@ -62,16 +102,18 @@
 .navbar a:hover{
     color: #117964;
 }
+
 .parent {
     display: grid;
     grid-template-columns: repeat(5, 1fr);
     grid-template-rows: repeat(3, 1fr);
-    gap: 40px;
+    gap: 8px;
+
 }
 .div1 {
     grid-column: span 5 / span 5;
 }
-.div1 .logo{
+.parent .logo{
     border-radius: 50%;
     width: 50px;
 }
@@ -315,6 +357,18 @@
 .div7:hover{
     transform: translateY(-10px);
 }
+.div7 button{
+    background-color: #ff4081;
+    color: #fff;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+.div7 button:hover {
+    background-color: #e60073;
+}
 @media (max-width: 768px){
     .navbar{
         opacity: 0.95;
@@ -421,7 +475,72 @@
     .navbar-container input[type="checkbox"]:checked ~ .hamburger-lines .line3{
         transform: rotate(-45deg);
     }
-
+    .parent {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: repeat(2, 1fr);
+        gap: 10px;
+    }
+    .div2 {
+        grid-column-start: 1;
+        grid-row-start: 2;
+        background-color: #ffffff;
+        border-radius: 10px;
+        padding: 5px;
+        text-align: center;
+        box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+        transition: transform 0.3s ease-in-out;
+    }
+    .div3 {
+        grid-column-start: 2;
+        grid-row-start: 2;
+        background-color: #ffffff;
+        border-radius: 10px;
+        padding: 5px;
+        text-align: center;
+        box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+        transition: transform 0.3s ease-in-out;
+    }
+    .div4 {
+        grid-column-start: 1;
+        grid-row-start: 3;
+        background-color: #ffffff;
+        border-radius: 10px;
+        padding: 5px;
+        text-align: center;
+        box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+        transition: transform 0.3s ease-in-out;
+    }
+    .div5 {
+        grid-column-start: 2;
+        grid-row-start: 3;
+        background-color: #ffffff;
+        border-radius: 10px;
+        padding: 5px;
+        text-align: center;
+        box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+        transition: transform 0.3s ease-in-out;
+    }
+    .div6 {
+        grid-column-start: 1;
+        grid-row-start: 4;
+        background-color: #ffffff;
+        border-radius: 10px;
+        padding: 5px;
+        text-align: center;
+        box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+        transition: transform 0.3s ease-in-out;
+    }
+    .div7 {
+        grid-column-start: 2;
+        grid-row-start: 4;
+        background-color: #ffffff;
+        border-radius: 10px;
+        padding: 5px;
+        text-align: center;
+        box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+        transition: transform 0.3s ease-in-out;
+    }
 }
 @media (max-width: 500px){
     .navbar-container input[type="checkbox"]:checked ~ .logo{
