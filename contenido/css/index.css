@@ -110,9 +110,7 @@
     gap: 8px;
 
 }
-.div1 {
-    grid-column: span 5 / span 5;
-}
+
 .parent .logo{
     border-radius: 50%;
     width: 50px;
@@ -158,6 +156,7 @@
 }
 .div2:hover{
     transform: translateY(-10px);
+    background-color: #defdff;
 }
 .div3 {
     grid-column-start: 3;
@@ -200,6 +199,7 @@
 }
 .div3:hover{
     transform: translateY(-10px);
+    background-color: #defdff;
 }
 .div4 {
     grid-column-start: 4;
@@ -242,6 +242,7 @@
 }
 .div4:hover{
     transform: translateY(-10px);
+    background-color: #defdff;
 }
 .div5 {
     grid-column-start: 2;
@@ -284,6 +285,7 @@
 }
 .div5:hover{
     transform: translateY(-10px);
+    background-color: #defdff;
 }
 .div6 {
     grid-column-start: 3;
@@ -326,6 +328,7 @@
 }
 .div6:hover{
     transform: translateY(-10px);
+    background-color: #defdff;
 }
 .div7 {
     grid-column-start: 4;
@@ -356,6 +359,7 @@
 }
 .div7:hover{
     transform: translateY(-10px);
+    background-color: #defdff;
 }
 .div7 button{
     background-color: #ff4081;
@@ -475,6 +479,9 @@
     .navbar-container input[type="checkbox"]:checked ~ .hamburger-lines .line3{
         transform: rotate(-45deg);
     }
+    body{
+        background-color: #e6e6e6;
+    }
     .parent {
         display: grid;
         grid-template-columns: repeat(2, 1fr);
@@ -484,7 +491,7 @@
     .div2 {
         grid-column-start: 1;
         grid-row-start: 2;
-        background-color: #ffffff;
+        background-color: #defdff;
         border-radius: 10px;
         padding: 5px;
         text-align: center;
@@ -494,7 +501,7 @@
     .div3 {
         grid-column-start: 2;
         grid-row-start: 2;
-        background-color: #ffffff;
+        background-color: #defdff;
         border-radius: 10px;
         padding: 5px;
         text-align: center;
@@ -504,7 +511,7 @@
     .div4 {
         grid-column-start: 1;
         grid-row-start: 3;
-        background-color: #ffffff;
+        background-color: #defdff;
         border-radius: 10px;
         padding: 5px;
         text-align: center;
@@ -514,7 +521,7 @@
     .div5 {
         grid-column-start: 2;
         grid-row-start: 3;
-        background-color: #ffffff;
+        background-color: #defdff;
         border-radius: 10px;
         padding: 5px;
         text-align: center;
@@ -524,7 +531,7 @@
     .div6 {
         grid-column-start: 1;
         grid-row-start: 4;
-        background-color: #ffffff;
+        background-color: #defdff;
         border-radius: 10px;
         padding: 5px;
         text-align: center;
@@ -534,7 +541,7 @@
     .div7 {
         grid-column-start: 2;
         grid-row-start: 4;
-        background-color: #ffffff;
+        background-color: #defdff;
         border-radius: 10px;
         padding: 5px;
         text-align: center;

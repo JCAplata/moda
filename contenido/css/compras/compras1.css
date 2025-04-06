@@ -1,0 +1,121 @@
+.parent {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(1, 1fr);
+    gap: 8px;
+}  
+.div1 {
+    grid-column-start: 2;
+    background-color: #ffffff;
+    border-radius: 10px;
+    padding: 15px;
+    text-align: justify;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease-in-out;
+}
+.div1:hover{
+    transform: translateY(-10px);
+} 
+.encabezado {
+    align-items: center;
+    justify-content: space-between;
+    display: flex;
+}
+.padre2 {
+    display: grid;
+    grid-template-columns: 1fr 2fr; /* Ajusta según qué tanto espacio quieras que ocupe cada lado */
+    gap: 20px; /* Espacio entre imagen y texto */
+    align-items: center; /* Centra verticalmente si hay diferencias de altura */
+    margin-top: 20px;
+}
+
+.izquierda img {
+    width: 100%; /* O ajusta según el diseño */
+    max-width: 200px;
+    border-radius: 10px;
+}
+.titulo {
+    align-items: center;
+    justify-content: space-between;
+    display: flex;
+}
+.suma{
+    align-items: center;
+    justify-content: space-between;
+    display: flex;
+}
+.suma img{
+    width: 80px;
+}
+.precio{
+    justify-content: space-between;
+    display: flex;
+}
+.iva{
+    justify-content: space-between;
+    display: flex;
+}
+.descuento{
+    justify-content: space-between;
+    display: flex;
+}
+.total{
+    justify-content: space-between;
+    display: flex;
+}
+button{
+    width: 100%;
+    background-color: rgb(0, 0, 0);
+    color: #ffffff;
+    border-radius: 5%;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+button:hover{
+    background-color: #ffffff;
+    color: black;
+}
+.div1:hover{
+    background-color: rgb(225, 255, 255);
+}
+.tarjetas img{
+    width: 100%;
+}
+@media (max-width: 768px) {
+    body {
+        font-size: 14px;
+        background-color: rgb(255, 255, 255);
+    }
+    .parent {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        grid-template-rows: repeat(1, 1fr);
+        gap: 8px;
+    }  
+    .div1 {
+        grid-row: span 2 / span 2;
+        grid-column-start: 2;
+        background-color: #ffffff;
+        border-radius: 10px;
+        padding: 15px;
+        text-align: justify;
+        box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+        transition: transform 0.3s ease-in-out;
+    }
+    .div1:hover{
+        transform: translateY(-10px);
+        background-color: rgb(229, 255, 255);
+    } 
+    .encabezado {
+        align-items: center;
+        justify-content: space-between;
+        display: flex;
+    }
+    .parte2 img{
+        width: 100%;
+        height: auto;
+    }
+}
