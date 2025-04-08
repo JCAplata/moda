@@ -1,93 +1,119 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Fun Multiverse - Mobile</title>
-  <link rel="stylesheet" href="../../css/otros/mobile.css" />
-  <link rel="preconnect" href="https://fonts.googleapis.com" />
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet" />
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../../css/otros/mobile.css">
+    <title>Navbar</title>
 </head>
 <body>
-    <nav class="navbar">
-        <div class="navbar-container container">
-            <input type="checkbox" name="" id="">
-            <div class="hamburger-lines">
-                <span class="line line1"></span>
-                <span class="line line2"></span>
-                <span class="line line3"></span>
-            </div>
-            <ul class="menu-items">
-                <li><a href="#">Home</a></li>
-                <li><a href="#">About</a></li>
-                <li><a href="#">Category</a></li>
-                <li><a href="#">Menu</a></li>
-                <li><a href="#">Testimonial</a></li>
-                <li><a href="#">Contact</a></li>
-            </ul>
-            <h1 class="logo">Navbar</h1>
+  <div class="container">
+    <div class="padre">
+      <div class="titulo">
+        <p>Hello, Welcome 👋</p>
+      </div>
+      <div class="foto">
+        <h3>Johlver Pardo</h3>
+        <img src="../../imagenes/logo.jpg" alt="perfil">
+      </div>
+    </div>
+    <div class="padre2">
+      <div class="buscar">
+        <div class="search-box">
+          <div class="row">
+            <input
+            type="text" class="search-bar" 
+            placeholder="Search for a country..." 
+            autocomplete="off">
+            <button><!-- svg --></button>
+          </div>
+          <div class="results"></div>
         </div>
-    </nav>
-  <header class="top-bar">
-    <div class="welcome-text">
-      <p>Hello, Welcome 👋</p>
-      <h2>Albert Stevano</h2>
-    </div>
-    <div class="user-pic">
-      <img src="../../imagenes/logo.jpg" alt="User" />
-    </div>
-  </header>
-
-  <section class="search-filter">
-    <input type="text" placeholder="Search clothes..." />
-    <button class="filter-btn">
-      <img src="../../imagenes/lista.png" alt="Filter" />
-    </button>
-  </section>
-
-  <section class="category-buttons">
-    <button class="active">All Items</button>
-    <button>Dress</button>
-    <button>T-Shirt</button>
-  </section>
-
-  <main class="product-list">
-    <article class="product-card">
-      <img src="../../imagenes/arañaniño.webp" alt="Modern Light Clothes" />
-      <div class="product-info">
-        <h3>Modern Light Clothes</h3>
-        <p>T-Shirt</p>
-        <div class="price-rating">
-          <span>$212.99</span>
-          <span>⭐ 5.0</span>
+        <script src="script.js"></script>
+        <div class="cuadrito">
+          <img src="../../imagenes/lista.png" alt="">
         </div>
       </div>
-      <button class="fav-btn">♡</button>
-    </article>
-
-    <article class="product-card">
-      <img src="../../imagenes/pantera rosa.webp" alt="Light Dress Bless" />
-      <div class="product-info">
-        <h3>Light Dress Bless</h3>
-        <p>Dress modern</p>
-        <div class="price-rating">
-          <span>$162.99</span>
-          <span>⭐ 5.0</span>
+    </div>
+    <div class="padre3">
+      <a href="#pantera"><button>👨🏻‍🦰Hombre</button></a>
+      <a href="#casual"><button>👩🏻‍🦰Mujer</button></a>
+      <a href="#niño"><button>👶🏻Niño</button></a>
+      <a href="#rosa"><button>👧🏻Niña</button></a>
+    </div>
+    <div class="tarjeta1">
+      <a href="../tarjetas/tarjeta1.html">
+        <img id="pantera" src="../../imagenes/pantera rosa.webp" alt="">
+        <h3>Conjunto Pantera Rosa</h3>
+        <p>Para Hombre</p>
+        <div class="tarje1">
+          <p><strong>$50.000</strong></p>
+          <p><strong>⭐5.0</strong></p>
         </div>
+        <a href="../tarjetas/tarjeta1.html"><button>Detalles</button></a>
+      </a>
+    </div>
+    <div class="tarjeta2">
+      <a href="../tarjetas/tarjeta2.html">
+        <img id="niño" src="../../imagenes/arañaniño.webp" alt="">
+        <h3>Conjunto <br> Spider-Man</h3>
+        <p>Para Niño</p>
+        <div class="tarje2">
+          <p><strong>$40.000</strong></p>
+          <p><strong>⭐5.0</strong></p>
+        </div>
+        <a href="../tarjetas/tarjeta2.html"><button>Detalles</button></a>
+      </a>
       </div>
-      <button class="fav-btn">♡</button>
-    </article>
-
-    <!-- Agrega más productos según necesidad -->
-  </main>
-
-  <footer class="bottom-nav">
-    <button>🏠</button>
-    <button>👜</button>
-    <button>🤍</button>
-    <button>👤</button>
-  </footer>
-
+    <div class="tarjeta3">
+      <a href="../tarjetas/tarjeta3.html">
+        <img id="casual" src="../../imagenes/combo mujer.webp" alt="">
+        <h3>Conjunto Casual</h3>
+        <p>Para Mujer</p>
+        <div class="tarje3">
+          <p><strong>$90.000</strong></p>
+          <p><strong>⭐5.0</strong></p>
+        </div>
+        <a href="../tarjetas/tarjeta3.html"><button>Detalles</button></a>
+      </a>
+      </div>
+    <div class="tarjeta4">
+      <a href="../tarjetas/tarjeta4.html">
+        <img id="rosa" src="../../imagenes/arañarosa.webp" alt="">
+        <h3>Conjunto <br> Spider-Man</h3>
+        <p>Para Niña</p>
+        <div class="tarje4">
+          <p><strong>$40.000</strong></p>
+          <p><strong>⭐5.0</strong></p>
+        </div>
+        <a href="../tarjetas/tarjeta4.html"><button>Detalles</button></a>
+      </a>
+      </div>
+    <div class="tarjeta5">
+      <a href="../tarjetas/tarjeta5.html">
+        <img src="../../imagenes/bikini.webp" alt="">
+        <h3>Conjunto Bikini</h3>
+        <p>Para Mujer</p>
+        <div class="tarje5">
+          <p><strong>$70.000</strong></p>
+          <p><strong>5.0</strong></p>
+        </div>
+        <a href="../tarjetas/tarjeta5.html"><button>Detalles</button></a>
+      </a>
+      </div>
+    <div class="tarjeta6">
+      <a href="../tarjetas/tarjeta6.html">
+        <img src="../../imagenes/gorras.webp" alt="">
+        <h3>Combo Gorras <br>Para Parejas</h3>
+        <p>Inspiradas en Adventure Time</p>
+        <div class="tarje6">
+          <p><strong>$60.000</strong></p>
+          <p><strong>⭐5.0</strong></p>
+        </div>
+        <a href="../tarjetas/tarjeta6.html"><button>Detalles</button></a>
+      </a>
+      </div>
+  </div>
 </body>
 </html>

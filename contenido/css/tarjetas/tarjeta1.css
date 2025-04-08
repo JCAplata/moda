@@ -38,6 +38,10 @@ body{
 .div1:hover {
     transform: translateY(-5px);
 }
+.div1 .vol button{
+    width: 15%;
+    position: left;
+}
 .sumando{
     align-items: center;
     justify-content: space-between;

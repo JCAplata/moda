@@ -71,6 +71,10 @@ body{
     background-color: #ffffff;
     color: black;
 }
+.div1 .vol button{
+    width: 15%;
+    position: left;
+}
 @media (max-width: 768px) {
     body {
         font-size: 14px;

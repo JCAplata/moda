@@ -71,6 +71,10 @@ body{
     background-color: #ffffff;
     color: black;
 }
+.div1 .vol button{
+    width: 15%;
+    position: left;
+}
 @media (max-width: 768px) {
     body {
         font-size: 14px;
@@ -93,6 +97,10 @@ body{
         box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
         transition: transform 0.3s ease-in-out;
     }
+    .div1 .vol button{
+    width: 15%;
+    position: left;
+}
     .div1 img {
         width: 100%;
         height: auto;

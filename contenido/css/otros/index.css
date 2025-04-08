@@ -108,9 +108,12 @@
     grid-template-columns: repeat(5, 1fr);
     grid-template-rows: repeat(3, 1fr);
     gap: 8px;
+    margin-top: auto;
 
 }
-
+.navbar{
+    margin-top: 0%;
+}
 .parent .logo{
     border-radius: 50%;
     width: 50px;
